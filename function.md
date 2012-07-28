@@ -1,3 +1,9 @@
-# How does it work?
+---
+layout: default
+permalink: /blaha-ha
+group: "navigation"
 
-Enter Text in Markdown format.
+---
+
+
+Bla bla
