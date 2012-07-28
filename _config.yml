@@ -1,5 +1,5 @@
 auto: true
-baseurl: depo
+baseurl: depo/
 markdown: rdiscount
 permalink: /:year/:month/:day/:title
 rdiscount extensions: [smart]
