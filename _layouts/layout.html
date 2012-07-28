@@ -7,8 +7,9 @@
     <title>{{ page.title }}</title>
   </head>
   <body>
+    {% include menugrouping.inc %}
     <header>
-      <h1><a href="/">{{ page.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}">{{ page.title }}</a></h1>
     </header>
     <section>
       {{ content }}
