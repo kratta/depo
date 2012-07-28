@@ -1,5 +1,4 @@
 auto: true
-baseurl: depo
 markdown: rdiscount
-permalink: /:year/:month/:day/:title
+permalink: depo/:year/:month/:day/:title
 rdiscount extensions: [smart]
