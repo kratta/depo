@@ -7,6 +7,12 @@
     <title>{{ page.title }}</title>
   </head>
   <body>
+    <ul>
+  {% assign pages_list = site.pages %}
+  {% assign group = 'navigation' %}
+  {% include pages_list %}
+</ul>
+    
     {% include menugrouping.inc %}
     <header>
       <h1><a href="{{ site.baseurl }}">{{ page.title }}</a></h1>
